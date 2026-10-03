@@ -92,4 +92,4 @@ def test_run_on_samples_writes_invites_and_agenda(tmp_path, samples):
 
 
 def test_ics_text_is_escaped():
-    assert sc._ics_escape("Budget; Q4, review\nnotes") == "Budget\; Q4\\, review\\nnotes"
+    assert sc._ics_escape("Budget; Q4, review\nnotes") == "Budget\\; Q4\\, review\\nnotes"

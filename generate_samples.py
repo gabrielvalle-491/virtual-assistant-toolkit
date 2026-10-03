@@ -170,7 +170,7 @@ def expense_samples(out: Path) -> None:
     path = out / "expenses/receipts.csv"
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as fh:
-        writer = csv.writer(fh)
+        writer = csv.writer(fh, lineterminator="\n")
         writer.writerow(["date", "employee", "category", "vendor", "description", "amount", "currency", "receipt_id"])
         writer.writerows(rows)
 

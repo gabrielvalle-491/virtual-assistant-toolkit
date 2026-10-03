@@ -109,7 +109,7 @@ def write_plan(moves: list[PlannedMove], path: str | Path) -> Path:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as fh:
-        writer = csv.writer(fh)
+        writer = csv.writer(fh, lineterminator="\n")
         writer.writerow(["source", "destination", "category", "duplicate_of", "sha256"])
         for m in moves:
             writer.writerow([m.source.as_posix(), m.destination.as_posix(), m.category,
@@ -138,7 +138,7 @@ def organize(
     new_log = not log_path.exists()
     action = "copy" if copy else "move"
     with log_path.open("a", newline="", encoding="utf-8") as fh:
-        writer = csv.DictWriter(fh, fieldnames=LOG_FIELDS)
+        writer = csv.DictWriter(fh, fieldnames=LOG_FIELDS, lineterminator="\n")
         if new_log:
             writer.writeheader()
         for m in moves:
