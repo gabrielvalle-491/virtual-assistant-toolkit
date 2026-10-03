@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//va-toolkit//scheduler//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:REQ-07@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261005T174500Z
+DTEND:20261005T181500Z
+SUMMARY:Weekly 1:1
+DESCRIPTION:Weekly 1:1 with Carlos Méndez.\nYour local time: Mon 05 Oct 11
+ :45 (America/Mexico_City).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Carlos Méndez;RSVP=TRUE:mailto:carlos.mendez@example.mx
+END:VEVENT
+END:VCALENDAR

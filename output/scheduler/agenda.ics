@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//va-toolkit//scheduler//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:REQ-01@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261005T130000Z
+DTEND:20261005T140000Z
+SUMMARY:Quarterly review
+DESCRIPTION:Quarterly review with Olivia Carter.\nYour local time: Mon 05 O
+ ct 09:00 (America/New_York).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Olivia Carter;RSVP=TRUE:mailto:olivia.carter@example.com
+END:VEVENT
+BEGIN:VEVENT
+UID:REQ-03@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261005T141500Z
+DTEND:20261005T144500Z
+SUMMARY:Marketing sync
+DESCRIPTION:Marketing sync with Marta López.\nYour local time: Mon 05 Oct 
+ 16:15 (Europe/Madrid).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Marta López;RSVP=TRUE:mailto:marta.lopez@example.es
+END:VEVENT
+BEGIN:VEVENT
+UID:REQ-05@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261005T170000Z
+DTEND:20261005T173000Z
+SUMMARY:Invoice reconciliation
+DESCRIPTION:Invoice reconciliation with Valentina Rossi.\nYour local time: 
+ Mon 05 Oct 14:00 (America/Argentina/Buenos_Aires).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Valentina Rossi;RSVP=TRUE:mailto:valentina.rossi@example.com
+END:VEVENT
+BEGIN:VEVENT
+UID:REQ-07@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261005T174500Z
+DTEND:20261005T181500Z
+SUMMARY:Weekly 1:1
+DESCRIPTION:Weekly 1:1 with Carlos Méndez.\nYour local time: Mon 05 Oct 11
+ :45 (America/Mexico_City).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Carlos Méndez;RSVP=TRUE:mailto:carlos.mendez@example.mx
+END:VEVENT
+BEGIN:VEVENT
+UID:REQ-02@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261006T120000Z
+DTEND:20261006T124500Z
+SUMMARY:Supplier onboarding call
+DESCRIPTION:Supplier onboarding call with James Patel.\nYour local time: Tu
+ e 06 Oct 13:00 (Europe/London).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=James Patel;RSVP=TRUE:mailto:james.patel@example.co.uk
+END:VEVENT
+BEGIN:VEVENT
+UID:REQ-04@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261008T170000Z
+DTEND:20261008T183000Z
+SUMMARY:Website redesign kickoff
+DESCRIPTION:Website redesign kickoff with Ryan Brooks.\nYour local time: Th
+ u 08 Oct 10:00 (America/Los_Angeles).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Ryan Brooks;RSVP=TRUE:mailto:ryan.brooks@example.com
+END:VEVENT
+END:VCALENDAR

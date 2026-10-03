@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//va-toolkit//scheduler//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:REQ-05@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261005T170000Z
+DTEND:20261005T173000Z
+SUMMARY:Invoice reconciliation
+DESCRIPTION:Invoice reconciliation with Valentina Rossi.\nYour local time: 
+ Mon 05 Oct 14:00 (America/Argentina/Buenos_Aires).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Valentina Rossi;RSVP=TRUE:mailto:valentina.rossi@example.com
+END:VEVENT
+END:VCALENDAR

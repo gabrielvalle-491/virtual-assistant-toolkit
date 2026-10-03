@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//va-toolkit//scheduler//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:REQ-01@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261005T130000Z
+DTEND:20261005T140000Z
+SUMMARY:Quarterly review
+DESCRIPTION:Quarterly review with Olivia Carter.\nYour local time: Mon 05 O
+ ct 09:00 (America/New_York).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Olivia Carter;RSVP=TRUE:mailto:olivia.carter@example.com
+END:VEVENT
+END:VCALENDAR

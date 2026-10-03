@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//va-toolkit//scheduler//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:REQ-02@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261006T120000Z
+DTEND:20261006T124500Z
+SUMMARY:Supplier onboarding call
+DESCRIPTION:Supplier onboarding call with James Patel.\nYour local time: Tu
+ e 06 Oct 13:00 (Europe/London).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=James Patel;RSVP=TRUE:mailto:james.patel@example.co.uk
+END:VEVENT
+END:VCALENDAR

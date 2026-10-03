@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//va-toolkit//scheduler//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:REQ-03@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261005T141500Z
+DTEND:20261005T144500Z
+SUMMARY:Marketing sync
+DESCRIPTION:Marketing sync with Marta López.\nYour local time: Mon 05 Oct 
+ 16:15 (Europe/Madrid).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Marta López;RSVP=TRUE:mailto:marta.lopez@example.es
+END:VEVENT
+END:VCALENDAR

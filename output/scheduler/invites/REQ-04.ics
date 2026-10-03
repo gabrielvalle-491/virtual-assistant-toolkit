@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//va-toolkit//scheduler//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:REQ-04@va-toolkit
+DTSTAMP:20261003T231217Z
+DTSTART:20261008T170000Z
+DTEND:20261008T183000Z
+SUMMARY:Website redesign kickoff
+DESCRIPTION:Website redesign kickoff with Ryan Brooks.\nYour local time: Th
+ u 08 Oct 10:00 (America/Los_Angeles).
+ORGANIZER:mailto:assistant@example.com
+ATTENDEE;CN=Ryan Brooks;RSVP=TRUE:mailto:ryan.brooks@example.com
+END:VEVENT
+END:VCALENDAR
