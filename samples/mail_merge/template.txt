@@ -1,0 +1,14 @@
+Subject: Friendly reminder: invoice {{ invoice_number }} for {{ company }}
+
+Hi {{ first_name }},
+
+I hope you are having a good week. This is a friendly reminder that invoice
+{{ invoice_number }} for USD {{ amount_due | money }} is due on {{ due_date | date }}.
+
+If the payment has already been sent, please disregard this message and thank you!
+Otherwise, you can reply to this email with any questions or if you need a copy
+of the invoice.
+
+Kind regards,
+Gabriel Valle
+Virtual Assistant
